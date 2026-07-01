@@ -4,6 +4,11 @@
 
 int main()
 {
+    char name[100];
+    printf("Who are you?\n> ");
+    scanf("%99s", name);
+    printf("Hello, %s!\n", name);
+    
     int heads = 0, tails = 0;
     int results[3];
 
